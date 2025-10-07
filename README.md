@@ -101,4 +101,4 @@ See [docs/evaluation.md](docs/evaluation.md) for detailed performance results.
 
 ## 📜 License
 
-MIT License (or your preferred license).
+MIT License.
