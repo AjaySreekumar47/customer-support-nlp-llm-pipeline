@@ -7,7 +7,7 @@ This system integrates **intent classification, complaint summarization, and res
 
 ## 📊 Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/architecture.mmd)
 
 ---
 
