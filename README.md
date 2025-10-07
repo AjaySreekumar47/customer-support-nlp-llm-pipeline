@@ -7,7 +7,13 @@ This system integrates **intent classification, complaint summarization, and res
 
 ## 📊 Architecture
 
-![Architecture](docs/architecture.mmd)
+```mermaid
+flowchart LR
+    A[User Query] --> B["Intent Classifier (DistilBERT)"]
+    B -->|Predicted Intent| C["Summarizer (Flan-T5 LoRA)"]
+    C -->|Condensed Summary| D["Reply Generator (Flan-T5 LoRA)"]
+    D -->|Polite Reply| E[Final Output to Customer]
+```
 
 ---
 
